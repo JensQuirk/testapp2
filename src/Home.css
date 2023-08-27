@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+.topText {
+    background-image: linear-gradient(
+        -225deg,
+        #03c29f 0%,
+        #e2932d 70%
+    );
+    width: 100%;
+    height: 3rem;
+}
+.content {
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    padding: 1rem;
+    padding-top: 0rem;
+    width: 30%;
+    min-height: 6rem;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.1rem;
+    border-radius: 1rem;
+}
+
+#animatedContainer {
+    min-height: 11rem;
+}
+/* Animation taken from https://codepen.io/alvarotrigo/pen/PoKMyNO. Posted by https://codepen.io/alvarotrigo */
+#titleAnimate
+{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #03c29f 0%,
+        #000000 29%,
+        #e5e5e5 67%,
+        #03c29f 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

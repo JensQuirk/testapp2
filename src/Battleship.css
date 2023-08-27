@@ -1,0 +1,133 @@
+#page {
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.playSpace {
+    background-image: linear-gradient(
+        -225deg,
+        #03c29f 0%,
+        #000000 50%
+    );
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 10%;
+    display: grid;
+    align-items: start;
+    justify-content: center;
+}
+.Boards {
+    grid-row: 1;
+    grid-column: 1;
+}
+.rules {
+    grid-row: 1;
+    grid-column: 2;
+}
+.replayButton {
+    width: 15rem;
+    grid-row: 2;
+    justify-self: center;
+    background-color: darkgray;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0.5rem;
+}
+.replayButton:hover {
+    background-color: yellow;
+}
+.PlayerBoard {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: start;
+    align-items: start;
+    gap: 0px;
+    row-gap: 0px;
+    column-gap: 0px;
+    width: 180px;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2px;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: black;
+    background-color: darkred;
+}
+.PlayerBoard button {
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0.5rem;
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+    
+    /* width: 1rem;
+    height: 1rem; */
+}
+.rules button {
+    border-style: solid;
+    border-color: black;
+    border-radius: 0.5rem;
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+}
+.ship5x5 button{
+    background-color: aqua;
+}
+.ship4x4 button{
+    background-color: yellow;
+}
+.ship3x3 button{
+    background-color: pink;
+}
+.ship2x2 button{
+    background-color: purple;
+}
+.boardCell:hover {
+    border-color: white;
+}
+.Boards {
+    display: flex;
+    align-items: start;
+}
+.Boards h3 {
+    margin: 0px;
+}
+.playerBoardSpace {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+.winTextBox {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.winText {
+    grid-row: 1;
+    grid-column: 1;
+    color: black;
+}
+.topBox {
+    color: black;
+    border-top: 1.5rem solid beige;
+    border-right: 1rem solid transparent;
+    border-left: 1rem solid transparent;
+    width: 13rem;
+}
+.bottomBox {
+    color: black;
+    border-bottom: 1.5rem solid beige;
+    border-right: 1rem solid transparent;
+    border-left: 1rem solid transparent;
+    width: 13rem;
+}

@@ -1,0 +1,12 @@
+ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    margin-right: 1rem;
+    color:aquamarine;
+    text-shadow: 2px 2px black;
+}
