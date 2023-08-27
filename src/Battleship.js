@@ -14,12 +14,12 @@ export default function BattleShip() {
         0, 0, 0, 0, 0, 0, 0, 0];
     let player2Board = [
         0, 0, 0, 0, 0, 0, 0, 0,
-        0, 1, 1, 1, 1, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 1, 0, 0, 0,
-        0, 0, 0, 0, 1, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 1, 1, 1,
+        0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0];
     //PlayerShipHits[0] keeps track of player 1's score while PlayerShipHits[1] keeps track of player 2's score.
     let playerShipHits = [0, 0];
